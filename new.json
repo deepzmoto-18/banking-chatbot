@@ -1,0 +1,143 @@
+{
+    "corrections": [
+        {
+            "value": "hello",
+            "synonyms": [
+                "helo",
+                "hlo",
+                "hloo",
+                "hlooo",
+                "hllo"
+            ]
+        },
+        {
+            "value": "how",
+            "synonyms": [
+                "hw"
+            ]
+        },
+        {
+            "value": "are",
+            "synonyms": [
+                "r",
+                "ar"
+            ]
+        },
+        {
+            "value": "you",
+            "synonyms": [
+                "yu",
+                "u"
+            ]
+        },
+        {
+            "value": "whatS",
+            "synonyms": [
+                "wht",
+                "wt",
+                "wat",
+                "what"
+            ]
+        },
+        {
+            "value": "account",
+            "synonyms": [
+                "acc",
+                "accounts",
+                "acunt",
+                "accunt",
+                "a/c",
+                "accnt"
+            ]
+        },
+        {
+            "value": "transaction",
+            "synonyms": [
+                "trans",
+                "transction",
+                "transctn",
+                "transfer",
+                "transfr",
+                "activity",
+                "history",
+                "summary",
+                "move",
+                "send",
+                "transfur"
+            ]
+        },
+        {
+            "value": "card",
+            "synonyms": [
+                "visa card",
+                "master card",
+                "atm card",
+                "bank card",
+                "credit card",
+                "debit card",
+                "crd",
+                "cad"
+            ]
+        },
+        {
+            "value": "help",
+            "synonyms": [
+                "assist"
+            ]
+        },
+        {
+            "value": "amount",
+            "synonyms": [
+                "money",
+                "funds",
+                "fund",
+                "mony",
+                "mny"
+            ]
+        },
+        {
+            "value": "action",
+            "synonyms": [
+                "show",
+                "check",
+                "view",
+                "see",
+                "find",
+                "ssearch",
+                "get",
+                "give",
+                "provide",
+                "catch"
+            ]
+        },
+        {
+            "value": "who",
+            "synonyms": [
+                "wh",
+                "wo"
+            ]
+        },
+        {
+            "value": "bank",
+            "synonyms": [
+                "bnk",
+                "bk"
+            ]
+        },
+        {
+            "value": "hi",
+            "synonyms": [
+                "hii",
+                "hiii",
+                "hiiii"
+            ]
+        },
+        {
+            "value": "is",
+            "synonyms": [
+                "iis",
+                "iss"
+            ]
+        }
+    ]
+}

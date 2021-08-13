@@ -1,0 +1,393 @@
+{
+    "corrections": [
+        {
+            "value": "hello",
+            "synonyms": [
+                "helo",
+                "hlo",
+                "hloo",
+                "hlooo",
+                "hllo"
+            ]
+        },
+        {
+            "value": "how",
+            "synonyms": [
+                "hw"
+            ]
+        },
+        {
+            "value": "are",
+            "synonyms": [
+                "r",
+                "ar"
+            ]
+        },
+        {
+            "value": "you",
+            "synonyms": [
+                "yu",
+                "u"
+            ]
+        },
+        {
+            "value": "what",
+            "synonyms": [
+                "wht",
+                "wt",
+                "wat"
+            ]
+        },
+        {
+            "value": "account",
+            "synonyms": [
+                "acc",
+                "acount",
+                "acunt",
+                "a/c",
+                "accounts",
+                "accnt"
+            ]
+        },
+        {
+            "value": "transaction",
+            "synonyms": [
+                "trans",
+                "transction",
+                "transctn",
+                "trnsctn",
+                "transfer",
+                "trnsfer",
+                "trnsfr"
+            ]
+        },
+        {
+            "value": "bank",
+            "synonyms": [
+                "bnk"
+            ]
+        },
+        {
+            "value": "balance",
+            "synonyms": [
+                "balanc",
+                "blanc",
+                "blnc"
+            ]
+        },
+        {
+            "value": "card",
+            "synonyms": [
+                "crd",
+                "caard"
+            ]
+        },
+        {
+            "value": "status",
+            "synonyms": [
+                "stats",
+                "stus"
+            ]
+        },
+        {
+            "value": "number",
+            "synonyms": [
+                "num",
+                "no",
+                "numbr",
+                "numr"
+            ]
+        },
+        {
+            "value": "name",
+            "synonyms": [
+                "nam",
+                "nm",
+                "nme"
+            ]
+        },
+        {
+            "value": "hi",
+            "synonyms": [
+                "hii",
+                "hiii",
+                "hiiii",
+                "hiiiii"
+            ]
+        },
+        {
+            "value": "money",
+            "synonyms": [
+                "mny",
+                "mony",
+                "mney"
+            ]
+        },
+        {
+            "value": "who",
+            "synonyms": [
+                "wh",
+                "wo"
+            ]
+        },
+        {
+            "value": "request",
+            "synonyms": [
+                "appeal",
+                "application",
+                "call",
+                "demand",
+                "desire",
+                "inquiry",
+                "invitation",
+                "offer",
+                "recourse",
+                "requisition",
+                "solicitation"
+            ]
+        },
+        {
+            "value": "account",
+            "synonyms": [
+                "Account",
+                "account",
+                "acc",
+                "account",
+                "acc",
+                "a/c"
+            ]
+        },
+        {
+            "value": "transaction",
+            "synonyms": [
+                "activity",
+                "history",
+                "summary"
+            ]
+        },
+        {
+            "value": "transfer",
+            "synonyms": [
+                "move",
+                "send",
+                "wire",
+                "transferring",
+                "wirring",
+                "money transfer"
+            ]
+        },
+        {
+            "value": "show",
+            "synonyms": [
+                "check",
+                "view",
+                "show",
+                "see",
+                "find",
+                "search",
+                "get",
+                "give",
+                "provide",
+                "show",
+                "display",
+                "obtain",
+                "prepare",
+                "overcome",
+                "catch",
+                "come with"
+            ]
+        },
+        {
+            "value": "money",
+            "synonyms": [
+                "money",
+                "funds",
+                "some amount"
+            ]
+        },
+        {
+            "value": "passcode",
+            "synonyms": [
+                "pass code",
+                "pass cod",
+                "pass_code",
+                "passcod",
+                "pin",
+                "pin number",
+                "pass number",
+                "pass num",
+                "atm password",
+                "atm Passcode",
+                "pin num",
+                "activation keys",
+                "active keys",
+                "pincode"
+            ]
+        },
+        {
+            "value": "password",
+            "synonyms": [
+                "pass_word",
+                "pass-word",
+                "passwod"
+            ]
+        },
+        {
+            "value": "email",
+            "synonyms": [
+                "email",
+                "email address",
+                "email id",
+                "google mail id",
+                "yahoo mail id",
+                "registered mail id",
+                "registered mail"
+            ]
+        },
+        {
+            "value": "mobile",
+            "synonyms": [
+                "mobile number",
+                "mobile no",
+                "mob no",
+                "mob number",
+                "mobile num",
+                "mobile",
+                "contact",
+                "contact number",
+                "contact num",
+                "contact no"
+            ]
+        },
+        {
+            "value": "username",
+            "synonyms": [
+                "user name",
+                "user_name"
+            ]
+        },
+        {
+            "value": "hey",
+            "synonyms": [
+                "hello",
+                "Hey",
+                "Holaa"
+            ]
+        },
+        {
+            "value": "cvv",
+            "synonyms": [
+                "csv",
+                "card cvv",
+                "cvv of card"
+            ]
+        },
+        {
+            "value": "till month",
+            "synonyms": [
+                "till_month",
+                "expiry month"
+            ]
+        },
+        {
+            "value": "till year",
+            "synonyms": [
+                "till_year",
+                "expiry year"
+            ]
+        },
+        {
+            "value": "atm",
+            "synonyms": [
+                "ATM",
+                "a.t.m",
+                "automated teller machine"
+            ]
+        },
+        {
+            "value": "process",
+            "synonyms": [
+                "processes",
+                "steps",
+                "ways",
+                "procedures",
+                "procedure"
+            ]
+        },
+        {
+            "value": "help",
+            "synonyms": [
+                "assist me",
+                "help me",
+                "assist",
+                "get me help",
+                "please help me",
+                "please assist me"
+            ]
+        },
+        {
+            "value": "code",
+            "synonyms": [
+                "number",
+                "num",
+                "keys",
+                "no"
+            ]
+        },
+        {
+            "value": "active",
+            "synonyms": [
+                "opening",
+                "turn on",
+                "activating",
+                "active",
+                "activate",
+                "activation",
+                "on",
+                "initiate",
+                "initiating",
+                "begin",
+                "begining",
+                "turning on",
+                "1",
+                "setup",
+                "re-enabling",
+                "re-enable",
+                "enable"
+            ]
+        },
+        {
+            "value": "card",
+            "synonyms": [
+                "visa card",
+                "master card",
+                "atm card",
+                "bank card",
+                "credit card",
+                "debit card"
+            ]
+        },
+        {
+            "value": "cancel",
+            "synonyms": [
+                "cancelled",
+                "disabled",
+                "foreclosing",
+                "closing",
+                "close",
+                "no longer need",
+                "no longer want",
+                "revoke",
+                "revoking",
+                "turn off",
+                "off",
+                "close",
+                "cancel",
+                "turning off",
+                "0",
+                "setoff",
+                "disable"
+            ]
+        }
+    ]
+}
