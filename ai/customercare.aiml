@@ -1,0 +1,443 @@
+<aiml version="1.0.1" eitherncoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+<!-- new -->
+    <category>
+    	<pattern>BANK</pattern>
+    	<template>A bank is a financial institution that accepts deposits from the public and creates credit. Lending activities can be performed either directly or indirectly through capital markets. Due to their importance in the financial stability of a country, banks are highly regulated in most countries. Most nations have institutionalized a system known as fractional reserve banking under which banks hold liquid assets equal to only a portion of their current liabilities. In addition to other regulations intended to ensure liquidity, banks are generally subject to minimum capital requirements based on an international set of capital standards, known as the Basel Accords.<system>b.py</system></template>
+    </category>
+
+    <category>
+    	<pattern>WHATS * BANK</pattern>
+    	<template><srai>BANK</srai></template>
+    </category>
+
+    <category>
+    	<pattern>LOAN</pattern>
+    	<template>In finance, a loan is the lending of money by one or more individuals, organizations, or other entities to other individuals, organizations etc. The recipient (i.e., the borrower) incurs a debt and is usually liable to pay interest on that debt until it is repaid as well as to repay the principal amount borrowed.</template>
+    </category>
+
+    <category>
+    	<pattern>LOAN *</pattern>
+    	<template><srai>LOAN</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHATS * LOAN</pattern>
+    	<template><srai>LOAN</srai></template>
+    </category>
+
+    <category>
+    	<pattern>BANK *</pattern>
+    	<template><srai>BANK</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPES * LOAN</pattern>
+    	<template>1.Student Loans
+    		2.Vehicle Loans
+    		3.Personal Loans
+    		4.Business Loans/Small Business Loans
+    		5.Housing Loan 
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>STUDENT</pattern>
+    	<template>Student loans are offered to college students and their families to help cover the cost of higher education. There are two main types: federal student loans and private student loans. Federally funded loans are better, as they typically come with lower interest rates and more borrower-friendly repayment terms.</template>
+    </category>
+
+    <category>
+    	<pattern>STUDENT LOAN</pattern>
+    	<template><srai>STUDENT</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * STUDENT LOAN</pattern>
+    	<template><srai>STUDENT</srai></template>
+    </category>
+
+    <category>
+    	<pattern>STUDENT LOAN *</pattern>
+    	<template><srai>STUDENT</srai></template>
+    </category>
+
+    <category>
+    	<pattern>VEHICLE</pattern>
+    	<template>Auto loans are tied to your property. They can help you afford a vehicle, but you risk losing the car if you miss payments. This type of loan may be distributed by a bank or by the car dealership directly but you should understand that while loans from the dealership may be more convenient, they often carry higher interest rates and ultimately cost more overall.</template>
+    </category>
+
+    <category>
+    	<pattern>VEHICLE LOAN</pattern>
+    	<template><srai>VEHICLE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * VEHICLE LOAN</pattern>
+    	<template><srai>VEHICLE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>VEHICLE LOAN *</pattern>
+    	<template><srai>VEHICLE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>PERSONAL</pattern>
+    	<template>Personal loans can be used for any personal expenses and don’t have a designated purpose. This makes them an attractive option for people with outstanding debts, such as credit card debt, who want to reduce their interest rates by transferring balances. Like other loans, personal loan terms depend on your credit history.</template>
+    </category>
+
+    <category>
+    	<pattern>PERSONAL LOAN</pattern>
+    	<template><srai>PERSONAL</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * PERSONAL LOAN</pattern>
+    	<template><srai>PERSONAL</srai></template>
+    </category>
+
+    <category>
+    	<pattern>PERSONAL LOAN *</pattern>
+    	<template><srai>PERSONAL</srai></template>
+    </category>
+
+    <category>
+    	<pattern>BUSINESS</pattern>
+    	<template>Small business loans are granted to entrepreneurs and aspiring entrepreneurs to help them start or expand a business. The best source of small business loans is the U.S. Small Business Administration (SBA), which offers a variety of options depending on each business’s needs.</template>
+    </category>
+
+    <category>
+    	<pattern>BUSINESS LOAN</pattern>
+    	<template><srai>BUSINESS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * BUSINESS LOAN</pattern>
+    	<template><srai>BUSINESS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>BUSINESS LOAN *</pattern>
+    	<template><srai>BUSINESS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOUSE</pattern>
+    	<template>A home equity loan is a type of loan in which the borrower uses the equity of his or her home as collateral. The loan amount is determined by the value of the property, and the value of the property is determined by an appraiser from the lending institution.</template>
+    </category>
+    
+    <category>
+    	<pattern>HOUSING LOAN</pattern>
+    	<template><srai>HOUSE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * HOUSING LOAN</pattern>
+    	<template><srai>HOUSE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOUSING LOAN *</pattern>
+    	<template><srai>HOUSE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>NEWACC</pattern>
+    	<template>1.Choose a Bank or Credit Union.
+    		2.Three Basic Categories of Banks.
+			3.Visit the Bank Branch or Website.
+			4.Pick the Product You Want.
+			5.Provide Your Information.
+			6.Agree to Terms.
+			7.Print, Sign, and Mail (If Required)
+			8.Fund Your Account.
+		</template>
+    </category>
+
+    <category>
+    	<pattern>HOW * NEW * ACCOUNT</pattern>
+    	<template><srai>NEWACC</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * NEW ACCOUNT</pattern>
+    	<template><srai>NEWACC</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * NEW ACCOUNT</pattern>
+    	<template><srai>NEWACC</srai></template>
+    </category>
+
+    <category>
+    	<pattern>NEW BANK ACCOUNT *</pattern>
+    	<template><srai>NEWACC</srai></template>
+    </category>
+
+    <category>
+    	<pattern>NEWLOAN</pattern>
+    	<template>1.Determine your requirement.
+    		2.Check loan eligibility.
+    		3.Calculate monthly instalments.
+    		4.Approach the bank.
+    		5.Submit documents.
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>HOW * LOAN</pattern>
+    	<template><srai>NEWLOAN</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * LOAN *</pattern>
+    	<template><srai>NEWLOAN</srai></template>
+    </category>
+
+    <category>
+    	<pattern>INSURANCE</pattern>
+    	<template>Insurance is a means of protection from financial loss. It is a form of risk management, primarily used to hedge against the risk of a contingent or uncertain loss.
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * INSURANCE</pattern>
+    	<template><srai>INSURANCE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TELL * INSURANCE</pattern>
+    	<template><srai>INSURANCE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INSURANCE *</pattern>
+    	<template><srai>INSURANCE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPEINS</pattern>
+    	<template>1.VEHICLE INSURANCE.
+    		2.HEALTH INSURANCE.
+    		3.HOME INSURANCE.
+    		4.LIFE INSURANCE.
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * TYPES * INSURANCE</pattern>
+    	<template><srai>TYPEINS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>LIST * INSURANCE</pattern>
+    	<template><srai>TYPEINS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>LIST * INSURANCE *</pattern>
+    	<template><srai>TYPEINS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>VEHICLE</pattern>
+    	<template>Vehicle insurance (also known as car insurance, motor insurance, or auto insurance) is insurance for cars, trucks, motorcycles, and other road vehicles. Its primary use is to provide financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. Vehicle insurance may additionally offer financial protection against theft of the vehicle, and against damage to the vehicle sustained from events other than traffic collisions, such as keying, weather or natural disasters, and damage sustained by colliding with stationary objects. The specific terms of vehicle insurance vary with legal regulations in each region.
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * VEHICLE INSURANCE</pattern>
+    	<template><srai>VEHICLE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * VEHICLE INSURANCE *</pattern>
+    	<template><srai>TYPEINS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TELL * VEHICLE INSURANCE</pattern>
+    	<template><srai>TYPEINS</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HEALTH</pattern>
+    	<template>Health insurance policies cover the cost of medical treatments. Dental insurance, like medical insurance, protects policyholders for dental costs. In most developed countries, all citizens receive some health coverage from their governments, paid through taxation. In most countries, health insurance is often part of an employer's benefits.
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * HEALTH INSURANCE</pattern>
+    	<template><srai>HEALTH</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * HEALTH INSURANCE *</pattern>
+    	<template><srai>HEALTH</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TELL * HEALTH INSURANCE</pattern>
+    	<template><srai>HEALTH</srai></template>
+    </category>
+
+    <category>
+    	<pattern>LIFE</pattern>
+    	<template>Life insurance provides a monetary benefit to a decedent's family or other designated beneficiary, and may specifically provide for income to an insured person's family, burial, funeral and other final expenses. Life insurance policies often allow the option of having the proceeds paid to the beneficiary either in a lump sum cash payment or an annuity. In most states, a person cannot purchase a policy on another person without their knowledge.</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * LIFE INSURANCE</pattern>
+    	<template><srai>LIFE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * LIFE INSURANCE *</pattern>
+    	<template><srai>LIFE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TELL * LIFE INSURANCE</pattern>
+    	<template><srai>LIFE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOME</pattern>
+    	<template>Home insurance, also commonly called hazard insurance or homeowners insurance (often abbreviated in the real estate industry as HOI), provides coverage for damage or destruction of the policyholder's home. In some geographical areas, the policy may exclude certain types of risks, such as flood or earthquake, that require additional coverage. Maintenance-related issues are typically the homeowner's responsibility. The policy may include inventory, or this can be bought as a separate policy, especially for people who rent housing. In some countries, insurers offer a package which may include liability and legal responsibility for injuries and property damage caused by members of the household, including pets.</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * HOME INSURANCE</pattern>
+    	<template><srai>HOME</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * HOME INSURANCE *</pattern>
+    	<template><srai>HOME</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TELL * HOME INSURANCE</pattern>
+    	<template><srai>HOME</srai></template>
+    </category>
+
+    <category>
+    	<pattern>SAVEMONEY</pattern>
+    	<template>
+    		<system>b.py savemoney</system>
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>HOW * SAVE MONEY</pattern>
+    	<template><srai>SAVEMONEY</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * SAVE MONEY</pattern>
+    	<template><srai>SAVEMONEY</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * SAVE MONEY *</pattern>
+    	<template><srai>SAVEMONEY</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * SAVE MONEY *</pattern>
+    	<template><srai>SAVEMONEY</srai></template>
+    </category>
+
+    <category>
+    	<pattern>INVEST</pattern>
+    	<template>
+    		<system>b.py investment</system>
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INVEST MONEY</pattern>
+    	<template><srai>INVEST</srai></template>
+    </category>
+
+    <category>
+    	<pattern>WHAT * INVESTMENT</pattern>
+    	<template><srai>INVEST</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INVEST MONEY *</pattern>
+    	<template><srai>INVEST</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INVEST *</pattern>
+    	<template><srai>INVEST</srai></template>
+    </category>
+
+    <category>
+    	<pattern>INVESTTYPE</pattern>
+    	<template>
+    		<system>b.py investmenttypes</system>
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>LIST * INVESTMENT</pattern>
+    	<template><srai>INVESTTYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPES * INVESTMENT</pattern>
+    	<template><srai>INVESTTYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INVEST MONEY</pattern>
+    	<template><srai>INVESTTYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INVEST MONEY *</pattern>
+    	<template><srai>INVESTTYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>HOW * INVESTMENT</pattern>
+    	<template><srai>INVESTTYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPES * INVEST MONEY *</pattern>
+    	<template><srai>INVESTTYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>SAVETYPE</pattern>
+    	<template>
+    		<system>b.py savingtypes</system>
+    	</template>
+    </category>
+
+    <category>
+    	<pattern>LIST * SAVINGS</pattern>
+    	<template><srai>SAVETYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPES * SAVINGS</pattern>
+    	<template><srai>SAVETYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPES * SAVING MONEY</pattern>
+    	<template><srai>SAVETYPE</srai></template>
+    </category>
+
+    <category>
+    	<pattern>TYPES * MONEY SAVING *</pattern>
+    	<template><srai>SAVETYPE</srai></template>
+    </category>
+
+</aiml>

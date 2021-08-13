@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>ADVANTAGES * NET BANKING</pattern>
+    <template> 1) Online account is simple to open and easy to operate.<br/>
+    2) It is quite convenient as you can easily pay your bills and can transfer funds between accounts.<br>
+    3) It is available all the time, i.e. 24x7.<br>
+    4) Fund transfer occurs very fast and efficiently.<br>
+    </template>
+    </category>
+    <category>
+        <pattern> * advantages * netbanking ^ </pattern>
+        <template><srai> * advantages * net banking ^ </srai></template>
+    </category>
+    <category>
+        <pattern> * advantages * internet banking ^ </pattern>
+        <template><srai> * advantages * net banking ^ </srai></template>
+    </category>
+    <category>
+    <pattern> * benefits * net banking ^ </pattern>
+    <template><srai> * advantages * net banking ^ </srai></template>
+    </category>
+    <category>
+        <pattern> * benefits * netbanking ^ </pattern>
+        <template><srai> * advantages * net banking ^ </srai></template>
+    </category>
+    <category>
+        <pattern> * benefits * internet banking ^ </pattern>
+        <template><srai> * advantages * net banking ^ </srai></template>
+    </category>
+</aiml>

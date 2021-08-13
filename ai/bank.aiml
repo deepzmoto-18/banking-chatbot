@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- basic_chat.aiml -->
+<aiml>
+
+<category>
+<pattern>ACTION * CARD DETAILS</pattern>
+<template>ENTER CARD NUMBER</template>	
+</category>
+
+<category>
+	<pattern>CARD *</pattern>
+	<that>ENTER CARD NUMBER</that>
+	<template>
+		<system>python my.py <star/> % cards</system>
+	</template>
+</category>
+
+<category>
+<pattern>ACTION _ ACCOUNT DETAILS</pattern>
+<template>ENTER ACCOUNT NUMBER</template>	
+</category>
+
+<category>
+	<pattern>ACCOUNT *</pattern>
+	<that>ENTER ACCOUNT NUMBER</that>
+	<template>
+		<system>my.py <star/> % accounts</system>
+	</template>
+</category>
+
+<category>
+<pattern>ACTION _ USER DETAILS</pattern>
+<template>ENTER USERID</template>	
+</category>
+
+<category>
+	<pattern>USER *</pattern>
+	<that>ENTER USERID</that>
+	<template>
+		<system>my.py <star/> % customers</system>
+	</template>
+</category>
+
+<!-- transactions -->
+
+<category>
+	<pattern>ACTION _ TRANSACTION *</pattern>
+	<template>ENTER RECEIVER ACCOUNT NUMBER</template>
+</category>
+
+<category>
+	<pattern> * </pattern>
+	<that>ENTER RECEIVER ACCOUNT NUMBER</that>
+	<template>ENTER AMOUNT</template>
+</category>
+
+<category>
+	<pattern> * </pattern>
+	<that>ENTER AMOUNT</that>
+	<template></template>
+</category>
+
+<!-- -->
+
+<category>
+	<pattern>SHOW MY ACCOUNT BALANCE</pattern>
+	<template>ENTER PASSWORD</template>
+</category>
+
+<category>
+	<pattern>BALANCE * BALANCE</pattern>
+	<that>ENTER PASSWORD</that>
+	<template>
+		<system>my.py <star/> % balance</system>
+	</template>
+</category>
+
+<category>
+	<pattern>PERFORM NEW TRANSACTION</pattern>
+	<template>ENTER ACCOUNT NO</template>
+</category>
+
+<category>
+	<pattern>T *</pattern>
+	<that>ENTER ACCOUNT NO</that>
+	<template>
+		<system>transaction.py <star/> % trans</system>
+	</template>
+</category>
+
+<category>
+	<pattern>LIST TRANSACTION</pattern>
+	<template>
+		<system>transaction.py % list</system>
+	</template>
+</category>
+
+</aiml>
